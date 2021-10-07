@@ -1,0 +1,85 @@
+:root{
+
+  /* primary */
+--Pale-blue: hsl(225, 100%, 94%)
+--Bright-blue: hsl(245, 75%, 52%)
+
+/* Neutral */
+
+--very-pale-blue: hsl(225, 100%, 98%)
+--desaturated-blue: hsl(224, 23%, 55%)
+--dark-blue: hsl(223, 47%, 23%)
+
+ /* Typography */
+}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Red-Hat-Dispaly', sans-serif ;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 15px 10px #e3e3ec;
+  /* background-color: #000; */
+}
+#order{
+ background-color: #fff;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 5em;
+ width: 375px;
+ overflow: hidden;
+ border-radius: 8px;
+}
+
+body{
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #dfe6fb;
+}
+
+#order h1{
+  margin: 1em 0;
+  color: #06096b;
+}
+
+#order .des{
+  text-align: center;
+  color: #424250;
+}
+
+#order .mus{
+  display: flex;
+  gap: 3em;
+  margin: 3em 0;
+  background-color: #f2f2f6;
+  padding: 1.5em;
+  border-radius: 8px;
+  align-items: center;
+  
+}
+
+#order button{
+  color: #fff;
+  background-color: #06096b;
+  width: 90%;
+  border-radius: 8px;
+  padding: 1.5em;
+  font-weight: bold;
+  box-shadow: 5px 15px 10px #e3e3ec;
+  margin: 0 30px;
+  
+}
+
+#order h3{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
